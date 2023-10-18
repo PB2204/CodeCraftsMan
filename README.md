@@ -1,6 +1,6 @@
 # CodeCraftsMan
 
-![CodeCraftsMan Logo](images/icon.png)
+![icon](https://github.com/PB2204/CodeCraftsMan/assets/120979437/2a5c057b-b4fd-49dd-88b3-c2f98fbd8019)
 
 **CodeCraftsMan** is a Visual Studio Code extension designed to assist developers in code generation. It offers support for multiple programming languages and aims to streamline the development process by automating common code writing tasks.
 
