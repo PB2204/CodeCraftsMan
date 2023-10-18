@@ -1,0 +1,17 @@
+{
+    "function": "def function_name(parameters):\n\t# Function body\n\treturn result",
+    "class": "class ClassName:\n\tdef __init__(self, parameters):\n\t\t# Constructor body\n\n\tdef method_name(self, parameters):\n\t\t# Method body",
+    "for-loop": "for item in iterable:\n\t# Loop body",
+    "while-loop": "while condition:\n\t# Loop body",
+    "if-statement": "if condition:\n\t# Code to execute if the condition is true\nelse:\n\t# Code to execute if the condition is false",
+    "try-except": "try:\n\t# Code that may raise an exception\nexcept Exception as e:\n\t# Code to handle the exception",
+    "print-statement": "print('message')",
+    "list-comprehension": "new_list = [expression for item in iterable if condition]",
+    "dictionary": "my_dict = {\n\t'key1': 'value1',\n\t'key2': 'value2'\n}",
+    "lambda-function": "my_function = lambda parameters: expression",
+    "file-read": "with open('filename', 'r') as file:\n\tcontents = file.read()",
+    "file-write": "with open('filename', 'w') as file:\n\tfile.write('data to write')",
+    "import-module": "import module_name",
+    "unittest": "import unittest\n\nclass TestClass(unittest.TestCase):\n\n\tdef test_example(self):\n\t\t# Test case code",
+    "async-await": "async def my_async_function(parameters):\n\t# Asynchronous code\n\nresult = await my_async_function(parameters)"
+}

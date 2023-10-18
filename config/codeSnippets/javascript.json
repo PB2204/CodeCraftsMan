@@ -1,0 +1,13 @@
+{
+    "function": "function functionName(parameters) {\n\t// Function body\n\treturn result;\n}",
+    "class": "class ClassName {\n\tconstructor(parameters) {\n\t\t// Constructor body\n\t}\n\n\tmethodName(parameters) {\n\t\t// Method body\n\t}\n}",
+    "for-loop": "for (let i = 0; i < array.length; i++) {\n\t// Loop body\n}",
+    "while-loop": "while (condition) {\n\t// Loop body\n}",
+    "if-statement": "if (condition) {\n\t// Code to execute if the condition is true\n} else {\n\t// Code to execute if the condition is false\n}",
+    "switch-case": "switch (value) {\n\tcase 'case1':\n\t\t// Code for case 1\n\t\tbreak;\n\tcase 'case2':\n\t\t// Code for case 2\n\t\tbreak;\n\tdefault:\n\t\t// Default code\n}",
+    "try-catch": "try {\n\t// Code that may throw an exception\n} catch (error) {\n\t// Code to handle the exception\n}",
+    "console-log": "console.log('message');",
+    "arrow-function": "const functionName = (parameters) => {\n\t// Function body\n\treturn result;\n}",
+    "template-literal": "const message = `This is a template literal with ${variable} embedded.`;",
+    "promises": "const somePromise = new Promise((resolve, reject) => {\n\t// Asynchronous operation\n});\nsomePromise.then((result) => {\n\t// Code on success\n}).catch((error) => {\n\t// Code on error\n});"
+}

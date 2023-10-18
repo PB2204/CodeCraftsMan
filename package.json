@@ -1,0 +1,46 @@
+{
+    "name": "codecraftsman",
+    "displayName": "CodeCraftsMan",
+    "description": "A Visual Studio Code extension for code generation.",
+    "version": "1.0.0",
+    "author": "Pabitra Banerjee",
+    "publisher": "Pabitra Banerjee",
+    "engines": {
+        "vscode": "^1.1.37"
+    },
+    "categories": [
+        "Other"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pb2204/CodeCraftsMan.git"
+    },
+    "homepage": "https://github.com/pb2204/CodeCraftsMan",
+    "icon": "images/icon.png",
+    "main": "src/extension.js",
+    "devDependencies": {
+        "typescript": "^4.0.5"
+    },
+    "scripts": {
+        "compile": "tsc",
+        "watch": "tsc -w",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "vscode",
+        "extension",
+        "code generation"
+    ],
+    "activationEvents": [
+        "onCommand:extension.helloWorld"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.helloWorld",
+                "title": "Hello World"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "class": "public class ClassName {\n\tpublic static void main(String[] args) {\n\t\t// Entry point of the Java application\n\t}\n}",
+    "public-method": "public void methodName(parameters) {\n\t// Method body\n}",
+    "private-method": "private void methodName(parameters) {\n\t// Method body\n}",
+    "constructor": "public ClassName(parameters) {\n\t// Constructor body\n}",
+    "for-loop": "for (int i = 0; i < length; i++) {\n\t// Loop body\n}",
+    "while-loop": "while (condition) {\n\t// Loop body\n}",
+    "if-statement": "if (condition) {\n\t// Code to execute if the condition is true\n} else {\n\t// Code to execute if the condition is false\n}",
+    "try-catch": "try {\n\t// Code that may throw an exception\n} catch (ExceptionType e) {\n\t// Code to handle the exception\n}",
+    "print-statement": "System.out.println(\"message\");",
+    "array": "Type[] arrayName = new Type[length];",
+    "list-arraylist": "List<Type> listName = new ArrayList<>();",
+    "hashmap": "Map<KeyType, ValueType> mapName = new HashMap<>();",
+    "import-package": "import package.name.ClassName;",
+    "extends-class": "public class SubClass extends SuperClass {\n\t// Subclass body\n}",
+    "implements-interface": "public class ClassName implements InterfaceName {\n\t// Class body\n}",
+    "thread": "Thread threadName = new Thread(new Runnable() {\n\tpublic void run() {\n\t\t// Thread body\n\t}\n});",
+    "try-resources": "try (ResourceType resource = new ResourceType()) {\n\t// Code using the resource\n} catch (Exception e) {\n\t// Exception handling\n}",
+    "junit-test": "import org.junit.Test;\nimport static org.junit.Assert.*;\n\npublic class TestClass {\n\n\t@Test\n\tpublic void testMethodName() {\n\t\t// Test case code\n\t}\n}",
+    "async-task": "import java.util.concurrent.*;\n\nExecutorService executor = Executors.newSingleThreadExecutor();\nFuture<ReturnType> future = executor.submit(new Callable<ReturnType>() {\n\tpublic ReturnType call() {\n\t\t// Asynchronous task code\n\t}\n});",
+    "jdbc-connection": "import java.sql.Connection;\nimport java.sql.DriverManager;\nimport java.sql.SQLException;\n\npublic class DatabaseConnection {\n\n\tpublic Connection connect() throws SQLException {\n\t\tString url = \"jdbc:database://host:port/database_name\";\n\t\tString user = \"username\";\n\t\tString password = \"password\";\n\t\treturn DriverManager.getConnection(url, user, password);\n\t}\n}"
+}

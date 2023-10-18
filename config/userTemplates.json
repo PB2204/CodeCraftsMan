@@ -1,0 +1,10 @@
+{
+    "JavaScriptFunction": "function functionName() {\n\t// JavaScript function code\n}",
+    "PythonClass": "class MyClass:\n\tdef __init__(self):\n\t\t# Python class constructor code\n\n\tdef my_method(self):\n\t\t# Python method code\n",
+    "JavaMainMethod": "public class Main {\n\tpublic static void main(String[] args) {\n\t\t// Java main method code\n\t}\n}",
+    "CppClass": "#include <iostream>\n\nclass MyClass {\npublic:\n\tMyClass() {\n\t\t// C++ class constructor code\n\t}\n\n\tvoid myMethod() {\n\t\t// C++ method code\n\t}\n};",
+    "HTMLTemplate": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>Sample HTML Page</title>\n</head>\n<body>\n\t<h1>Hello, World!</h1>\n</body>\n</html>",
+    "SQLQuery": "SELECT column1, column2 FROM tableName WHERE condition;",
+    "ReactComponent": "import React from 'react';\n\nfunction MyComponent() {\n\treturn (\n\t\t<div>\n\t\t\t{/* React component code */}\n\t\t</div>\n\t);\n}\n\nexport default MyComponent;",
+    "SwiftClass": "import UIKit\n\nclass MyViewController: UIViewController {\n\toverride func viewDidLoad() {\n\t\tsuper.viewDidLoad()\n\t\t// Swift class code\n\t}\n}"
+}
