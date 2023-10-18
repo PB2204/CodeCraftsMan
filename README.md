@@ -60,6 +60,6 @@ Please review our [Code of Conduct](CODE_OF_CONDUCT.md) to understand our behavi
 
 For any questions, concerns, or inquiries, please contact the project maintainer:
 
-- Name : [Pabitra Banerjee](htps://pabitrabanerjee.me)
+- Name : [Pabitra Banerjee](https://pabitrabanerjee.me)
 - Email : [Pabitra Banerjee](mailto:rockstarpabitra2204@gmail.com)
 - GitHub : [PB2204](https://github.com/pb2204)
